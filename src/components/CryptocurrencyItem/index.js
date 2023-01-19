@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import './index.css'
 
 class CryptocurrencyItem extends Component {
   render() {
