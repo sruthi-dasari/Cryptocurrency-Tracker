@@ -22,7 +22,7 @@ class CryptocurrenciesList extends Component {
             <p className="list-title">EURO</p>
           </li>
           {currencyList.map(eachItem => (
-            <CryptocurrencyItem currencyDetails={eachItem} />
+            <CryptocurrencyItem currencyDetails={eachItem} key={eachItem.id} />
           ))}
         </ul>
       </div>
